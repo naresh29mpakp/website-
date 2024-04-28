@@ -1,0 +1,48 @@
+header {
+    background-color: #2193b0;
+    color: white; /* Example text color */
+    padding:20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensures the header stays on top of other elements */
+  }
+  
+  /* Adjust padding/margin for the content to prevent overlap with the header */
+  main {
+    padding-top: 50px; /* Adjust the value to provide space for the fixed header */
+  }
+
+  main {
+  margin-top: 40px; /* Adjust the value as needed for the desired space */
+}
+
+
+.logo-text {
+
+    margin-left: 40px; 
+  }
+
+  .small-text {
+    font-size: 5px; /* Adjust the font size as needed */
+  }
+
+  #login-box,
+  #register-box {
+    width: 600px; /* Set the width to 400 pixels */
+  }
+
+  .register-login-title {
+    color: #000; /* Change the text color */
+    background-color: #fff; /* Change the background color */
+}
+
+.card {
+    color: #000; /* Change the text color */
+    background-color: #fff; /* Change the background color */
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+  }
